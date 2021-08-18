@@ -7,123 +7,25 @@
     <link href="styling.css" rel="stylesheet" type="text/css" />
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap%27");
-
-            * {
-            margin: 0;
-            padding: 0;
-            }
-
-            .navbar {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            }
-
-            body {
-            text-align: center;
-            }
-
-            .wrapper {
-            width: 100%;
-            margin: 0 auto;
-            }
-
-            #wrapper {
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            }
-
-            header {
-            height: 12%;
-            background: rgb(28, 28, 51);
-            width: 100%;
-            z-index: 12;
-            position: fixed;
-            }
-
-            .logo {
-            width: 100%;
-            }
-
-            .logo a {
-            text-decoration: none;
-            font-family: "Cinzel", serif;
-            font-size: 2vw;
-            flex-grow: 4;
-            color: gold;
-            letter-spacing: 30px;
-            }
-
-            .locab {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            flex-grow: 1;
-            float: left;
-            margin-left: 5%;
-            }
-
-            .dojoin {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            flex-grow: 1;
-            margin-right: 5%;
-            }
-
-            nav a {
-            text-decoration: none;
-            font-family: "Cinzel", serif;
-            margin: 0 10px;
-            color: white;
-            }
-
-            nav a:hover {
-            color: rgb(221, 164, 19);
-            text-shadow: 2px 2px 8px rgb(255, 251, 2);
-            }
-
-            .banner-area {
-            top: 50px;
-            width: 100%;
-            height: 500px;
-            background-image: url("images/charitybg.jpg");
-            background-size: cover;
-            background-position: center center;
-            }
-
-            .content-area {
-            width: 100%;
-            top: 50px;
-            background-color: rgb(250, 250, 250);
-            position: relative;
-            }
-
-            .content-area h2 {
-            font-size: 2vw;
-            font-family: "Cinzel", serif;
-            padding-bottom: 25px;
-            }
     </style>
   </head>
   <body>
     <div class = "box-area">
         <header class = "navbar">
             <div id="wrapper">
-                <nav class = "locab">
+                <nav class = "links">
                   <a href="#">Locations<a>
                   <a href="#">About<a>
+                  <a href="#">Donate<a>
+                  <a href="#">Join<a>
                 </nav>
                 <div class = "logo">
                     <a href = "#"> Books-A-Billion </a>
                 </div>
-                <nav class = "dojoin">
-                    <a href="#">Donate<a>
-                    <a href="#">Join<a>
+                <nav class = "losi">
+                  <a href = "#"> Log In</a>
+                  <p class = "space"> or </p>
+                  <a href="#">Sign Up</a>
                 </nav>
             </div>
         </header>
@@ -131,10 +33,9 @@
         </div>
         <div class="content-area">
             <div class="wrapper">
-                <h2>Content Area</h2>
+                <h2> About </h2>
 
-                <p> Hello There!</p>
-                <p> General Kenobi!</p>
+                <p class="about_desc"> Hello!  Welcome to Books-A-Billion, a charity organization that helps schools, libraries, and even families attain books old and new!  Here we are determined to allow access to books to those who want to read, wether it be for fun or to grow their knowledge on subjects. Reading is a very important skill and activity to us.. and what better way to expand accessibility of reading to others besides books?</p>
             </div>
         </div>
     </div>
