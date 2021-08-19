@@ -99,7 +99,7 @@ nav a {
 }
 
 nav a:hover {
-  font-size: 30px;
+  font-size: 18px;
   color: rgb(221, 164, 19);
   text-shadow: 2px 2px 8px rgb(255, 251, 2);
 }
@@ -256,21 +256,24 @@ nav a:hover {
 }
 
 .programs:hover {
-  font-size: 30px;
-  color: hotpink;
-  text-shadow: 2px 2px 8px red;
+  color: rgb(199, 158, 44);
+  text-shadow: 4px 0 18px gold;
+}
+
+.num {
+  color: rgb(28, 28, 51);
 }
 
 .num:hover {
-  letter-spacing: 4px;
-  font-size: 30px;
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 8px rgb(190, 140, 31);
+  color: rgb(28, 28, 51);
+  text-shadow: 2px 2px 8px rgb(28, 28, 51);
+}
+
+.places {
+  color: rgb(28, 28, 51);
 }
 
 .places:hover {
-  letter-spacing: 4px;
-  font-size: 30px;
   color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 8px rgb(190, 140, 31);
+  text-shadow: 2px 2px 8px rgb(28, 28, 51);
 }
